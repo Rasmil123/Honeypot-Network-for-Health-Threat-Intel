@@ -1,0 +1,56 @@
+[
+    {
+        "timestamp": "2026-04-13 16:10:31",
+        "ip": "192.168.1.38",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-13 16:10:38",
+        "ip": "192.168.1.37",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-27 09:32:02",
+        "ip": "192.168.1.6",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-27 09:32:14",
+        "ip": "192.168.1.6",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-27 09:32:28",
+        "ip": "192.168.1.6",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-27 09:37:27",
+        "ip": "192.168.1.6",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-27 11:14:21",
+        "ip": "192.168.1.6",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-28 11:51:14",
+        "ip": "10.90.201.22",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    },
+    {
+        "timestamp": "2026-04-28 11:54:15",
+        "ip": "10.246.95.153",
+        "ua": "TCP Raw Connection",
+        "status": "BLOCKED"
+    }
+]

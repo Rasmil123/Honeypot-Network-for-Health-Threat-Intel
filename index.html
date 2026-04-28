@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Honeypot | Threat Intel Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="fade-in">
+
+  <header>
+    <div class="logo">MED-SHIELD <span style="font-weight: 300;">HONEYPOT</span></div>
+    <div class="status-badge">
+      <div class="status-dot"></div>
+      ACTIVE THREAT SCANNER
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <!-- Left Panel: Stats -->
+    <aside class="stats-panel">
+      <div class="card">
+        <div class="stat-label">TOTAL THREATS DETECTED</div>
+        <div class="stat-value" id="total_threats">0</div>
+      </div>
+      <div class="card">
+        <div class="stat-label">UNIQUE ENTITY IPS</div>
+        <div class="stat-value" id="unique_ips">0</div>
+      </div>
+      <div class="card" style="background: rgba(0, 243, 255, 0.03); border: 1px solid rgba(0, 243, 255, 0.1);">
+        <div class="stat-label">HONEYPOT STATUS</div>
+        <div class="stat-value" style="font-size: 1.2rem; display: flex; align-items: center; gap: 0.5rem;">
+          <span style="color: var(--primary);">●</span> ONLINE (PORT 8888)
+        </div>
+      </div>
+      <div class="card" style="margin-top: auto; padding: 1rem; opacity: 0.6; font-size: 0.8rem; border: none; background: transparent;">
+        &copy; 2026 Healthcare Threat Intelligence. Unauthorized access is monitored.
+      </div>
+    </aside>
+
+    <!-- Right Panel: Live Logs -->
+    <section class="logs-panel">
+      <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+        <div class="logs-header">
+          <h2 style="font-size: 1.5rem; font-weight: 600;">INTEL FEED</h2>
+          <span style="font-size: 0.8rem; color: var(--text-muted); align-self: center;">REFRESHING EVERY 2 SECONDS</span>
+        </div>
+        
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>TIMESTAMP</th>
+                <th>IDENTIFIER / SOURCE IP</th>
+                <th>IDENTIFIED USER AGENT</th>
+                <th>ACTION</th>
+              </tr>
+            </thead>
+            <tbody id="log_body">
+              <!-- Logs populated via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
